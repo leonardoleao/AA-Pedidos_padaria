@@ -1,6 +1,0 @@
-<!-- fazer_pedido.html -->
-<form method="post" action="{% url 'fazer_pedido' %}">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Enviar Pedido</button>
-</form>
